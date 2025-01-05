@@ -1,0 +1,573 @@
+.x
+{
+    background-color: rgb(215, 196, 236);
+    width: 1350px;
+    /* margin:10px; */
+    height: 100vh;
+    padding: 0;
+}
+.abt
+{
+  width: 1350px;
+}
+.menubar
+{
+    width:1350px;
+    height:150px;
+    border: 5px solid black;
+    box-shadow: 3px;
+    background-color:darkblue;
+    padding: 40px;
+}
+.div-images
+{
+ width:1350px;
+ height:460px;
+ border: 5px solid black;
+}
+.highlight {
+    color: white; 
+    font-weight: bold;
+    font-size: 50px;
+}
+.highlight1 {
+    color: white; 
+    font-weight: bold;
+    font-size: 50px;
+}
+.stop-rag
+{
+    border:5px solid black;
+   width: 1350px;
+}
+.contact-details
+{
+  width: 1350px;
+  padding: 10px;
+  height: 500px;
+  background-color: #ddd;
+}
+.details2,.details3
+{
+    margin:20px;
+}
+.xy
+{
+    width:1350px;
+    height:800px;
+    background-color: rgba(225, 225, 225,0.1);
+    border: 5px solid rgb(10, 10, 10);  
+}
+.details2
+{
+    margin-left: 400px;
+    margin-top: -480px;
+}
+.details3
+{
+    margin-left: 800px;
+    margin-top: -125px;
+}
+.menubar1
+{
+    width: 1315px;
+    height:150px;
+    border: 5px solid black;  
+   
+}
+.btnback
+{
+    margin-top: 200px;
+    margin-left: 20px;
+}
+.para1
+{
+    background-color: antiquewhite;
+    padding: 10px;
+    text-align: justify;
+    height: 500px;
+}
+.formcontainer
+{
+    width: 950px;
+    height:800px;
+    border: 2px solid black;
+    margin-left: 200px;
+    border-radius: 10px;
+    box-shadow:  0 4px 8px #be040433;
+}
+.textlabels
+{
+    margin:20px;
+}
+  .collegedetails
+  {
+    width: 1000px;
+    height: 500px;
+    margin-left: 200px;
+    margin-top: 30px;
+    transition: box-shadow 0.3s ease;
+  }
+  .collegedetails label,.form-control
+  {
+    margin-left: 30px;
+  }
+.collegedetails:hover
+{
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+  /* Drop down */
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-toggle {
+    font-family: "revert-layer";
+    font-weight: bolder;
+    color: maroon;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 100%; /* Position below the dropdown toggle */
+    left: 0;
+  }
+  
+  .dropdown-menu .dropdown-item {
+    color: maroon;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-menu .dropdown-item:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  .collegedetails1 {
+    width: 650px;
+    height: 800px;
+    margin-left: 30px;
+    margin-top: -1100px; /* Adjust if needed */
+    border-radius: 10px;
+    background-color: rgba(182, 43, 43, 0.5); /* Use a semi-transparent color */
+    position: relative; /* Ensure it layers correctly */
+    z-index: 10; /* Ensure it is on top of other elements */
+    backdrop-filter: blur(5px); /* Optional: apply a blur effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: add some shadow */
+    transition: box-shadow 0.3s ease; /* Smooth transition */
+    opacity: 0.7; /* Adjust the opacity of the entire element */
+  }
+  .collegedetails1:hover
+  {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Shadow effect */
+  }
+  
+  .collegedetails1 label,.form-control
+  {
+    margin-left: 30px;
+  }
+  .displaydetails
+  {
+    width: 1000px;
+    height: 500px;
+    margin-left: 200px;
+    transition: box-shadow 0.3s ease;
+    padding: 20px;
+  }
+  .displaydetails:hover
+  {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); 
+  }
+  .logindetails1
+  {
+    width: 700px;
+    height: 400px;
+    margin-left: 300px;
+    margin-top: -700px;
+    background-color: rgba(218, 176, 176, 0.7); 
+   transition: box-shadow 0.3s ease; /* Smooth transition */
+   backdrop-filter: blur(10px);
+   opacity: 0.8;
+  }
+  .logindetails1:hover
+  {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.9); /* Shadow effect */
+  }
+  .logindetails1 label,.form-control
+  {
+    margin-left: 30px;
+  }
+  .adminbar
+  {
+      width:100%;
+      height:150px;
+      box-shadow: 3px;
+      background-color:darkblue;
+      padding: 40px;
+  }
+  .x1
+{
+    background-color: rgb(240, 244, 248);
+    width: 1350px;
+    height: 200vh;
+    border: 5px solid black;
+}
+  .dropdown1
+  {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown1-toggle {
+    font-size: 20px;
+    color: maroon;
+    font-family: monospace;
+    font-weight: normal;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown1-menu {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1000;
+    width: 150px;
+  }
+  .dropdown1:hover .dropdown1-menu {
+    display: block;
+  }
+  .dropdown1-item {
+    font-family: monospace; 
+    text-wrap: nowrap;
+    font-size: 15px;
+    padding: 12px 16px;
+    text-decoration: none;
+    color: maroon;
+    display: block;
+  }
+  .dropdown1-item:hover {
+    background-color: #f1f1f1;
+  }
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+  .logpage {
+    border: 5px solid black;
+    height: 100vh; /* Full viewport height */
+    width: 1350px;  /* Full viewport width */
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center;     /* Center content vertically */
+  }
+ .regbordr
+ {
+  border: 5px solid black;
+ }
+ .princard
+ {
+  margin-left: 200px;
+  margin-top: -800px;
+  width: 900px;
+  padding: 20px; 
+  transition: box-shadow 0.3s ease; /* Smooth transition */
+ }
+ .princard:hover
+ {
+   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Shadow effect */
+ }
+.squdcard
+{
+  margin-left: 200px;
+  margin-top: -800px;
+  width: 900px;
+  padding: 20px;
+  background-color: rgba(197, 90, 90, 0.1); 
+  transition: box-shadow 0.3s ease; /* Smooth transition */
+}
+.squdcard:hover
+{
+  box-shadow: 0 4px 20px rgba(175, 160, 160, 0.9); /* Shadow effect */
+}
+.newscard
+{
+  margin-left: 200px;
+  margin-top: 40px;
+  width: 900px;
+  padding: 20px;
+  background-color: rgba(197, 90, 90, 0.1); 
+  transition: box-shadow 0.3s ease; /* Smooth transition */
+}
+.newscard:hover
+{
+  box-shadow: 0 4px 20px rgba(175, 160, 160, 0.9); /* Shadow effect */
+}
+.complaintscard
+{
+  padding: 10px;
+  width: 1300px;
+  height: 300px;
+  background-color: rgba(197, 90, 90, 0.1); 
+  transition: box-shadow 0.3s ease; /* Smooth transition */
+}
+.complaintscard:hover
+{
+  box-shadow: 0 4px 20px rgba(175, 160, 160, 0.9); /* Shadow effect */
+}
+.studentscard
+{
+  padding: 10px;
+  width: 1300px;
+  height: 300px;
+  background-color: rgba(197, 90, 90, 0.1); 
+  transition: box-shadow 0.3s ease; /* Smooth transition */
+}
+.studentscard:hover
+{
+  box-shadow: 0 4px 20px rgba(175, 160, 160, 0.9); /* Shadow effect */
+}
+.viewnewscard
+{
+  padding: 10px;
+  width: 800px;
+  height: 300px;
+  background-color: rgba(197, 90, 90, 0.1); 
+  transition: box-shadow 0.3s ease; /* Smooth transition */
+  margin-left: 300px;
+}
+.viewnewscard:hover
+{
+  box-shadow: 0 4px 20px rgba(175, 160, 160, 0.9); /* Shadow effect */
+}
+.viewcompcard
+{
+  padding: 10px;
+  width: 1300px;
+  height: 300px;
+  background-color: rgba(197, 90, 90, 0.1); 
+  transition: box-shadow 0.3s ease; /* Smooth transition */
+  margin-left: 30px;
+}
+.viewcompcard:hover
+{
+  box-shadow: 0 4px 20px rgba(175, 160, 160, 0.9); /* Shadow effect */
+}
+.viewfeedbackcard
+{
+  padding: 10px;
+  width: 1300px;
+  height: 300px;
+  background-color: rgba(197, 90, 90, 0.1); 
+  transition: box-shadow 0.3s ease; /* Smooth transition */
+}
+.viewfeedbackcard:hover
+{
+  box-shadow: 0 4px 20px rgba(175, 160, 160, 0.9); /* Shadow effect */
+}
+.viewstudcard
+{
+  padding: 10px;
+  width: 1300px;
+  height: 300px;
+  background-color: rgba(197, 90, 90, 0.1); 
+  transition: box-shadow 0.3s ease; /* Smooth transition */
+}
+.viewstudcard:hover
+{
+  box-shadow: 0 4px 20px rgba(175, 160, 160, 0.9); /* Shadow effect */
+}
+.prinpswdcard
+{
+  padding: 10px;
+  width: 800px;
+  height: 300px;
+  transition: box-shadow 0.3s ease;
+  margin-left: 300px;
+}
+.prinpswdcard:hover
+{
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Shadow effect */
+}
+.princprofcard
+{
+  padding: 10px;
+  width: 1000px;
+  height: 300px;
+  margin-left: 200px;
+  transition: box-shadow 0.3s ease;
+}
+.princprofcard:hover
+{
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Shadow effect */
+}
+.managecompcard
+{
+  padding: 10px;
+  width: 1300px;
+  height: 500px;
+  transition: box-shadow 0.3s ease;
+  margin: 30px;
+}
+.managecompcard:hover
+{
+  box-shadow: 0 4px 20px rgba(175, 160, 160, 0.9); /* Shadow effect */
+}
+.news1card
+{
+  margin:100px;
+  width: 900px;
+  height: 500px;
+  padding: 10px;
+  background-color: rgba(197, 90, 90, 0.1); 
+  transition: box-shadow 0.3s ease;
+}
+.news1card:hover
+{
+  box-shadow: 0 4px 20px rgba(175, 160, 160, 0.9); /* Shadow effect */
+}
+.comp1card
+{
+  padding: 10px;
+  width: 1300px;
+  height: 500px;
+  margin-left: 20px;
+  transition: box-shadow 0.3s ease;
+}
+.comp1card:hover
+{
+  box-shadow: 0 4px 20px rgba(175, 160, 160, 0.9); /* Shadow effect */
+}
+.squaprofilecard
+{
+  padding: 10px;
+  width: 900px;
+  height: 500px;
+  background-color: rgba(197, 90, 90, 0.1); 
+  transition: box-shadow 0.3s ease;
+  margin-left: 200px;
+  margin-top: 50px;
+  
+}
+.squaprofilecard:hover
+{
+  box-shadow: 0 4px 20px rgba(175, 160, 160, 0.9); /* Shadow effect */
+}
+.squadpswdcard
+{
+  padding: 10px;
+  width: 900px;
+  height: 500px;
+  background-color: rgba(197, 90, 90, 0.1); 
+  transition: box-shadow 0.3s ease;
+  margin-left: 200px;
+  margin-top: 40px;
+}
+.squadpswdcard:hover
+{
+  box-shadow: 0 4px 20px rgba(175, 160, 160, 0.9); /* Shadow effect */
+}
+.postfeedbackcard
+{
+  padding: 10px;
+  width: 900px;
+  height: 300px;
+  transition: box-shadow 0.3s ease;
+  margin-left: 200px;
+  margin-top: 40px;
+}
+.postfeedbackcard:hover
+{
+  box-shadow: 0 4px 20px rgba(175, 160, 160, 0.9); /* Shadow effect */
+}
+.postcomplaintscard
+{
+  padding: 10px;
+  width: 900px;
+  height: 700px;
+  background-color: rgba(197, 90, 90, 0.1); 
+  transition: box-shadow 0.3s ease;
+  margin-left: 200px;
+  margin-top: 40px;
+}
+.postcomplaintscard:hover
+{
+  box-shadow: 0 4px 20px rgba(175, 160, 160, 0.9); /* Shadow effect */
+}
+.viewcomp2card
+{
+  padding: 10px;
+  width: 900px;
+  height: 300px;
+  transition: box-shadow 0.3s ease;
+  margin-left: 200px;
+  margin-top: 40px;
+}
+.viewcomp2card:hover
+{
+  box-shadow: 0 4px 20px rgba(175, 160, 160, 0.9); /* Shadow effect */
+}
+.updatestudprofcard
+{
+  padding: 10px;
+  width: 900px;
+  height: 300px; 
+  transition: box-shadow 0.3s ease;
+  margin-left: 200px;
+  margin-top: 40px;
+}
+.updatestudprofcard:hover
+{
+  box-shadow: 0 4px 20px rgba(175, 160, 160, 0.9); /* Shadow effect */
+}
+.updatestupswdcard
+{
+  padding: 10px;
+  width: 900px;
+  height: 300px;
+  background-color: rgba(197, 90, 90, 0.1); 
+  transition: box-shadow 0.3s ease;
+  margin-left: 200px;
+  margin-top: 40px;
+}
+.updatestupswdcard:hover
+{
+  box-shadow: 0 4px 20px rgba(175, 160, 160, 0.9); /* Shadow effect */
+}
+.btnss
+{
+  text-align: center;
+}
+.managestudentcard
+{
+  margin: 30px;
+  width: 1300px;
+  height: 300px;
+  background-color: rgba(197, 90, 90, 0.1); 
+  transition: box-shadow 0.3s ease; /* Smooth transition */
+  padding: 20px;
+}
+.managestudentcard:hover
+{
+box-shadow: 0 4px 20px rgba(175, 160, 160, 0.9); /* Shadow effect */
+}
+.btns
+{
+  text-align: center;
+}
